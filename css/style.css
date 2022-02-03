@@ -1,0 +1,67 @@
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.skip {
+    position: absolute;
+    left: -500px
+}
+
+.skip:focus {
+    left: 10px;
+}
+
+nav {
+    margin-top: 30px;
+
+}
+
+nav li{
+    display: inline;
+    padding: 10px;
+    background-color: white;
+}
+
+nav li a {
+    color: black;
+}
+
+.active {
+    border: solid red 2px;
+}
+
+.active, .active a {
+    background-color: black;
+}
+
+img {
+    width: 300px;
+    display: inline-block;
+    padding: 15px;
+    margin: 20px 10px;
+    border: solid black 3px;
+    border-radius: 10px;
+    background-color: grey;
+}
+
+img:nth-child(2n +1) {
+    border: dotted white 4px;
+    background-color: black;
+}
+
+img:hover {
+    background-color: red;
+    width: 350px;
+}
+
+.active a {
+    color: white;
+}
+
+h1 {
+    font-size: 34px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
